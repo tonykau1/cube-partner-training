@@ -15,14 +15,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://cube-partner-training.github.io',
+  url: 'https://tonykau1.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/cube-partner-training/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'cube-partner-training', // Usually your GitHub org/user name.
+  organizationName: 'tonykau1', // Usually your GitHub org/user name.
   projectName: 'cube-partner-training', // Usually your repo name.
 
   onBrokenLinks: 'throw',

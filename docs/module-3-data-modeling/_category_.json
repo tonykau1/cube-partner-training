@@ -1,0 +1,8 @@
+{
+  "label": "Module 3: Data Modeling",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Advanced data modeling patterns, complex joins, and comprehensive TPC-H schema implementation."
+  }
+}

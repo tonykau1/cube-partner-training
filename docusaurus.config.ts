@@ -47,21 +47,7 @@ const config: Config = {
           editUrl:
             'https://github.com/cube-partner-training/cube-partner-training/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/cube-partner-training/cube-partner-training/tree/main/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -81,18 +67,22 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'trainingSidebar',
+          sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Training',
+          label: 'Training Modules',
         },
-        {to: '/blog', label: 'Updates', position: 'left'},
         {
           href: 'https://cube.dev',
           label: 'Cube.dev',
           position: 'right',
         },
         {
-          href: 'https://github.com/cube-partner-training/cube-partner-training',
+          href: 'https://cubecloud.dev',
+          label: 'Cube Cloud',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/cube-js/cube',
           label: 'GitHub',
           position: 'right',
         },
@@ -102,46 +92,62 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Training',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Getting Started',
               to: '/docs/intro',
             },
+            {
+              label: 'Module 1: Foundation',
+              to: '/docs/module-1-foundation',
+            },
+            {
+              label: 'Module 2: Getting Started',
+              to: '/docs/module-2-getting-started',
+            },
           ],
         },
         {
-          title: 'Community',
+          title: 'Cube Resources',
           items: [
+            {
+              label: 'Cube.dev',
+              href: 'https://cube.dev',
+            },
+            {
+              label: 'Cube Cloud',
+              href: 'https://cubecloud.dev',
+            },
+            {
+              label: 'Documentation',
+              href: 'https://cube.dev/docs',
+            },
+            {
+              label: 'Community Slack',
+              href: 'https://cube.dev/slack',
+            },
+          ],
+        },
+        {
+          title: 'Support',
+          items: [
+            {
+              label: 'GitHub Issues',
+              href: 'https://github.com/cube-js/cube/issues',
+            },
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/cube.js',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Partner Program',
+              href: 'https://cube.dev/partners',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Cube Dev, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

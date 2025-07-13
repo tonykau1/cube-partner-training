@@ -11,32 +11,35 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Hands-On Learning',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Learn by building with real TPC-H data and DuckDB. Each module includes 
+        practical exercises that build on previous knowledge, creating a complete 
+        analytics solution from foundation to advanced patterns.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Partner-Focused Content',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Designed specifically for systems integrators and consultants. 
+        Learn to position Cube Cloud, implement client solutions, and 
+        build a successful analytics practice with enterprise-grade patterns.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Production Ready',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Master security, performance optimization, and troubleshooting.
+        Connect to BI tools, build custom applications, and implement
+        sophisticated analytics patterns your clients will love.
       </>
     ),
   },

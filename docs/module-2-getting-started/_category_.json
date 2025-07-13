@@ -1,0 +1,8 @@
+{
+  "label": "Module 2: Getting Started",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Hands-on setup of Cube Cloud deployment with TPC-H sample data and first data models."
+  }
+}

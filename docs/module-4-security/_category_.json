@@ -1,0 +1,8 @@
+{
+  "label": "Module 4: Security & Access Control",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Implementing RBAC, row-level security, and multi-tenant patterns for enterprise deployments."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Module 1: Foundation",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Foundation module covering Cube architecture, Cloud vs OSS comparison, and core concepts."
+  }
+}
